@@ -1,0 +1,113 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  background-image: url('https://st2.depositphotos.com/2208684/10631/i/950/depositphotos_106316626-stock-photo-professional-woman-making-call.jpg');
+  background-image: cover;
+  text-align: center;
+} */
+
+.logOf {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 450px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/09/28/13/istock-29897406-medium.jpg?w968h681');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: Transparent
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Caveat', cursive;
+}
+
+h1{
+  margin: 0;
+  padding: 10;
+  color:#000;
+  font-size:15em;
+
+}
+
+h1 span
+{
+  display:table-cell;
+  margin:0;
+  padding:0;
+  animation:animate 2s linear infinite;
+}
+
+h1 span:nth-child(1)
+{
+  animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+  animation-delay: 0.25s;
+}
+h1 span:nth-child(3)
+{
+  animation-delay: 0.5s;
+}
+h1 span:nth-child(4)
+{
+  animation-delay: 0.75s;
+}
+h1 span:nth-child(5)
+{
+  animation-delay: 1s;
+}
+h1 span:nth-child(6)
+{
+  animation-delay: 1.25s;
+}
+/* h1 span:nth-child(7)
+{
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(8)
+{
+  animation-delay: 1.75s;
+}
+h1 span:nth-child(9)
+{
+  animation-delay: 2s;
+} */
+@keyframes animate
+{
+  0%, 100%
+  {
+    color: #fff;
+    filter:blur(2px);
+    text-shadow: 0 0 10px #fc000c,
+                 0 0 20px #fc000c,
+                 0 0 40px #fc000c,
+                 0 0 80px #fc000c,
+                 0 0 120px #fc000c,
+                 0 0 200px #fc000c;
+                 /* ,
+                 0 0 300px #fc000c,
+                 0 0 400px #fc000c,
+                 0 0 400px #fc000c; */
+
+  }
+  5%, 95%
+  {
+    color: #000;
+    filter: blur(0px);
+    text-shadow:none;
+  }
+}
+
+/**/
